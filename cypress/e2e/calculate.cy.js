@@ -7,7 +7,7 @@ describe('Acesslink', () => {
         calcularFrete.limpacookie();
         calcularFrete.wait();
     });
-    it('CalculaFrete', () => {
+    it('CalcularFrete', () => {
         calcularFrete.wait();
         calcularFrete.preencheCep();
         calcularFrete.formato();

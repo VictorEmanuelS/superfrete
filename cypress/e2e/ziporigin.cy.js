@@ -8,7 +8,7 @@ describe('Acesslink', () => {
         calcularFrete.limpacookie();
         calcularFrete.wait();
     });
-    it('CepDeDestino', () => {
+    it('Validar que usuário não informa cep de origem, retorna mensagem de erro', () => {
         calcularFrete.formato();
         calcularFrete.peso();
         calcularFrete.altura();

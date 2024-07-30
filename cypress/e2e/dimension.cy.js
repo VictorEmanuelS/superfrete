@@ -7,7 +7,7 @@ describe('Acesslink', () => {
         calcularFrete.limpacookie();
         calcularFrete.wait();
     });
-    it('dimensao', () => {
+    it('Validar que deve visualizar três mensagem de erro altura x largura x comprimento', () => {
         calcularFrete.wait();
         calcularFrete.preencheCep();
         calcularFrete.formato();
