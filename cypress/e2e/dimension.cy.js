@@ -8,7 +8,6 @@ describe('Acesslink', () => {
         calcularFrete.wait();
     });
     it('Validar que deve visualizar três mensagem de erro altura x largura x comprimento', () => {
-        calcularFrete.wait();
         calcularFrete.preencheCep();
         calcularFrete.formato();
         calcularFrete.peso();
